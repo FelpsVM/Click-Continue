@@ -16,17 +16,7 @@ Before running the script, make sure you have the required dependencies installe
 pip install pynput pyautogui
 ```
 
-How It Works
+## How It Works
 The script listens for the "Delete" key press using the pynput library.
 When the "Delete" key is pressed, the script starts simulating continuous mouse clicks by holding down the left mouse button with pyautogui.mouseDown().
 It toggles the continuous clicking when the "Delete" key is pressed again.
-Usage
-Clone or download the script:
-
-Download the script (replace with actual link)
-Run the script:
-
-bash
-Copiar código
-python continuous_clicker.py
-Press the Delete key to toggle continuous clicking on or off.
